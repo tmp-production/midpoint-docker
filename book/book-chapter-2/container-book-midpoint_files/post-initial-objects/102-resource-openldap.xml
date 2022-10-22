@@ -44,10 +44,10 @@
 
     <connectorConfiguration
         xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3"
-        xmlns:icfcldap="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-ldap/com.evolveum.polygon.connector.ldap.ad.AdLdapConnector">
+        xmlns:icfcldap="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-ldap/com.evolveum.polygon.connector.ldap.LdapConnector">
         <icfc:configurationProperties>
             <icfcldap:port>389</icfcldap:port>
-            <icfcldap:host>ad</icfcldap:host>
+            <icfcldap:host>book-ldap-chapter-2</icfcldap:host>
             <icfcldap:baseContext>dc=sambaad,dc=local</icfcldap:baseContext>
             <icfcldap:bindDn>CN=Administrator,CN=Users,dc=sambaad,dc=local</icfcldap:bindDn>
             <icfcldap:bindPassword>
